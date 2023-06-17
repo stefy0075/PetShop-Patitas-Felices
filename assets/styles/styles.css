@@ -110,7 +110,7 @@ input[type="text"] {
     margin: 1rem 0rem;
     border: 1px solid #000000;
     height: 24rem;
-    background-color: #b1a89c;
+    background-color: #252521;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
     transition: all ease .3s;
 }
@@ -244,7 +244,6 @@ footer>div{
     color: #E4E3E9;
 }
 #img-card{
-
     object-fit: contain;
 }
 #conteneiner-details{
@@ -253,8 +252,10 @@ footer>div{
     border: 1px solid #2A3033 ;
     border-radius: 40px;
     width: 100% !important;
+    margin-top: 5rem !important;
+    margin-bottom: 5rem !important;
     max-width: 875px;
-    background-color: #ffddae
+    background-color: #ffedd3f5
 }
 
 #contenedor-main-details{
