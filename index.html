@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patitas Felices</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/styles/styles.css">
+  <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-md p-1">
+    <div class=" container-fluid w-30 d-flex  ">
+        <a class="anchor anchor2" href="./index.html"><img class="mb-2" id="logo" src="./assets/img/logo.png" alt="logo"> Patitas Felices </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse w-75 " id="menu">
+            <ul class="navbar-nav w-100 justify-content-evenly">
+                <li class="nav-item py-3"><a class=" anchor" href="./index.html">inicio</a></li>
+                <li class="nav-item py-3"><a class=" anchor"href="./views/contact.html">Contacto</a></li>
+                <li class="nav-item py-3"><a class=" anchor"href="./views/pharmacy.html">Farmacia</a></li>
+                <li class="nav-item py-3"><a class=" anchor"href="./views/toystore.html">Jugueteria</a></li>
+            </ul>
+    </div>
+  </nav>
+  <main>
+    <header class="d-flex justify-content-center">
+      <h1 class="title">Bienvenido a PetShop Patitas Felices</h1>
+    </header>
+    <div class="perro">
+      <img id="perro" src="./assets/img/home2.jpeg" alt="">
+    </div>
+    <div class="lorem d-flex align-items-center justify-content-center flex-column">
+      <p class="m-0 py-4 parrafo"> PetShop Patitas Felices es una empresa que nació hace 55 años de la mano del bisabuelo de los
+        actuales conductores, Gastón y Diego Kantor. El fundador comenzó en el rubro curando grandes
+        animales y luego de 25 años de trabajo logró ampliarse e innovar en los servicios de veterinarias en la
+        República Argentina.
+        </p>
+        <p class="m-0 pb-4 parrafo">
+          Hace 15 años atrás, por primera vez, se instalaba en el barrio de Caballito un nuevo modelo y
+        concepto de negocio: la boutique para mascotas. Este modelo de negocio ya estaba bien establecido
+        en América del norte, en países europeos y en algunos países asiáticos pero no así en Argentina.
+        Hoy en día es una empresa que comercializa alimentos, accesorios, medicinas y químicos para
+        mascotas, cuenta con firmes relaciones
+        comerciales con criaderos de mascotas del país
+        </p>
+    </div>
+  </main>
+  <footer class="d-flex justify-content-center justify-content-md-between align-items-center flex-wrap">
+    <div class="py-3 py-md-0 text-center">
+      <a href="www.instaram.com"><img class="icons" src="./assets/img/instagram.png" alt="instagram"></a>
+      <a href="www.facebook.com"><img class="icons" src="./assets/img/facebook.png" alt="facebook"></a>
+      <a href="www.whatsapp.com"><img class="icons" src="./assets/img/whatsapp.png" alt="whatsapp"></a>
+    </div>
+    <div class="py-3 py-md-0 text-center">
+      <a class="anchorFooter " href="https://www.google.com.ar/maps/place/R%C3%ADo+de+Janeiro+300,+C1405CCB+CABA/@-34.6117922,-58.4329847,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcca429815227f:0x5d302e497c2cda87!8m2!3d-34.6117966!4d-58.4304098">Rio de Janeiro 300, Caballito</a>
+    </div>
+    <div class="py-3 py-md-0 text-center">
+      <a class=" anchorFooter" href="./index.html">Patitas Felices</a>
+    </div>
+  </footer>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <script type="module" src="./src/controllers/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,264 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.title{
+    background-color: #fefefe85;
+    border-radius: 0.4em;
+}
+.perro{
+    width: 100%;
+}
+footer{
+    background-color: #252521;
+    padding: 15px;
+}
+.parrafo{
+    width: 75%;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #fefefe85;
+}
+.navbar{
+    background-color: #252521;
+}
+.anchor2{
+    font-weight: bold;
+    font-size: 30px;
+}
+.anchor{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #E4E3E9;
+}
+.anchor:hover{
+    color: #2A3033 ;
+}
+.icons{
+    height: 40px;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 88vh;
+    background-image: url(../img/bg.jpg);
+    background-size: contain;
+}
+
+.anchorFooter{
+    text-decoration: none;
+    font-weight: bold;
+    color: #E4E3E9;
+    padding: 20px;
+}
+
+/* Pagina Farmacia */
+
+#contenedor1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0rem;
+}
+
+h1{
+    font-weight: bolder;
+    margin: 2rem 0rem;
+}
+
+.search-input{
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 900px;
+    height: 2.5rem;
+}
+
+input[type="text"]::placeholder {
+    text-align: center;
+    font-size: 25px;
+  }
+
+input[type="text"] {
+    padding-left: 0.5rem;
+    font-size: 1.5em;
+  }
+
+
+.col{
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    margin: 2rem 0rem !important;
+    padding: 0 !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.card{
+    border-radius: 1.5rem;
+    margin: 1rem 0rem;
+    border: 1px solid #000000;
+    height: 24rem;
+    background-color: #b1a89c;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+    transition: all ease .3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+  }
+
+.marginCard{
+    margin: 1rem !important;
+}
+
+.a-card{
+    text-decoration: none;
+    position: relative;
+}
+
+.ultimas-unidades {
+    position: absolute;
+    bottom: 50px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 12rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    object-fit: cover;
+}
+
+.card-title{
+    text-align: center;
+    margin-top: 1rem;
+    color: white;
+}
+
+.text-button{
+    display: flex;
+    color: white;
+    margin: 1rem 0rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-primary{
+    --bs-btn-bg: #b7c700;
+    --bs-btn-border-color: none;
+    --bs-btn-hover-bg: #7d7d00;
+    --bs-btn-hover-border-color: none;
+    --bs-btn-active-bg: #fff200;
+    --bs-btn-active-border-color: none;
+    --bs-btn-disabled-bg: none;
+    --bs-btn-disabled-border-color: none;
+}
+
+@media (min-width: 319px) and (max-width: 426px) {
+    .search-input{
+        border-radius: 0.5rem;
+        height: 2rem;
+    }
+    
+    input[type="text"]::placeholder {
+        font-size: 16px;
+      }
+    
+    input[type="text"] {
+        padding-left: 0.5rem;
+        font-size: 1rem;
+      }
+}
+
+.border {
+    border-color: #2A3033 !important;
+}
+#comentario {
+    resize: none;
+    height: 200px;
+}
+.btn {
+    color: #E4E3E9;
+    background-color: #1E5515;
+    transition: ease .4s;
+}
+.btn:hover {
+    color: #E4E3E9;
+    background-color: #184F0F;
+}
+.btn:active {
+    border-color: #215818 !important;
+    color: #E4E3E9 !important;
+    background-color: #215818 !important;
+
+}
+#perro{
+    height: 30em;
+    width: 100%;
+    object-fit: cover;
+}
+#logo{
+    height: 50px;
+}
+footer>div{
+    width: 240px;
+}
+.imagen-details{
+    width: 300px;
+    object-fit: cover;
+}
+.contenedor-text{
+    width: 100%;
+    max-width: 600px;
+}
+ .contenerdor-button{
+    display: flex;
+    justify-content: center;
+ }
+.button-details{
+    margin-right: 20px;
+    background-color: #1E5515;
+    border: 4px solid #1E5515 ;
+    border-radius: 40px;
+    color: #E4E3E9;
+}
+#img-card{
+
+    object-fit: contain;
+}
+#conteneiner-details{
+    display: flex !important;
+    justify-content: center;
+    border: 1px solid #2A3033 ;
+    border-radius: 40px;
+    width: 100% !important;
+    max-width: 875px;
+    background-color: #ffddae
+}
+
+#contenedor-main-details{
+    display: flex;
+    justify-content: center;
+}
+
+#titulo-h5{
+    color: black !important;
+    margin-bottom: 15px;
+}
