@@ -10,6 +10,9 @@
 .perro{
     width: 100%;
 }
+#formulario-contacto{
+    background-color: #fffaf4d0;
+}
 footer{
     background-color: #252521;
     padding: 15px;
@@ -188,25 +191,26 @@ input[type="text"] {
 }
 
 .border {
-    border-color: #2A3033 !important;
+    border-color: #CD7F2D!important;
 }
 #comentario {
     resize: none;
     height: 200px;
 }
 .btn {
-    color: #E4E3E9;
-    background-color: #1E5515;
+    color: #000000;
+    background-color: #CD7F2D;
+    font-weight: bold;
     transition: ease .4s;
 }
 .btn:hover {
     color: #E4E3E9;
-    background-color: #184F0F;
+    background-color: #CD7F2D;
 }
 .btn:active {
-    border-color: #215818 !important;
+    border-color: #000000 !important;
     color: #E4E3E9 !important;
-    background-color: #215818 !important;
+    background-color: #f49937 !important;
 
 }
 #perro{
@@ -234,8 +238,8 @@ footer>div{
  }
 .button-details{
     margin-right: 20px;
-    background-color: #1E5515;
-    border: 4px solid #1E5515 ;
+    background-color: #CD7F2D;
+    border: 2px solid #6e4518 ;
     border-radius: 40px;
     color: #E4E3E9;
 }
